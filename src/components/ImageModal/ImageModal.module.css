@@ -1,0 +1,59 @@
+.overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background-color: #1e1e1e;
+    padding: 24px;
+    border-radius: 12px;
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow: auto;
+    position: relative;
+    color: #f0e6d2;
+    text-align: center;
+    opacity: 0;
+    transform: scale(0.9);
+    animation: fadeIn 0.3s forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .caption {
+    margin-top: 16px;
+  }
+  
+  .alt {
+    font-style: italic;
+    opacity: 0.8;
+    margin-top: 8px;
+  }
+  
+  .closeBtn {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: #f0e6d2;
+    cursor: pointer;
+  }
+  

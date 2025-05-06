@@ -1,0 +1,63 @@
+.header {
+    padding: 24px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .title {
+    font-family: "Pirata One", cursive;
+    font-size: 42px;
+    color: #f0e6d2;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    min-width: 280px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #c49b66;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #1b1b1b;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #997950;
+  }
+  
+  /* WAVES */
+  
+  .waves {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    pointer-events: none;
+    margin-top: 12px;
+  }
+  
+  .wavePath {
+    fill: #c49b66;
+    transition: d 0.2s ease-in-out;
+  }
+  
