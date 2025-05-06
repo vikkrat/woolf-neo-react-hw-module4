@@ -1,10 +1,10 @@
-import { TailSpin } from "react-loader-spinner";
+import { FadeLoader } from "react-spinners";
 import css from "./Loader.module.css";
 
 const Loader = () => {
   return (
     <div className={css.loader}>
-      <TailSpin color="#c49b66" height={60} width={60} />
+      <FadeLoader color="#c49b66" />
     </div>
   );
 };
